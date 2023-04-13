@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+
+:root{
+   --p: black;
+   --s: white;
+   --t: rgb(5, 118, 194);
+   --c: lightblue;
+}
+
+
+header{
+   border-bottom: 0.5rem solid var(--p);
+   border-bottom-left-radius: 2rem;
+   border-bottom-right-radius: 2rem;
+   display: flex;
+   height: 6rem;
+   justify-content: space-between;
+   align-items: center;
+   background-color: var(--t);
+   color: var(--p);
+}
+
+div{
+    background-color: var(--c);
+}
+
+header h1{
+   font-weight: bold;
+   font-size: 5rem;
+   margin-left: 0.5rem;
+}
+
+
+header nav ul{
+   list-style-type: none;
+   display: flex;
+   align-items: center;
+   height: 6rem;
+}
+
+
+header nav ul li{
+   padding: 1rem;
+   height: 100%;
+   display: flex;
+   align-items: center;
+}
+
+
+header nav ul li a{
+   text-decoration: none;
+   color: var(--p);
+}
+
+
+header nav ul li:hover{
+   background: var(--c);
+}
+
+
+.index{
+   min-height: calc(100vh - 9rem);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: var(--c);
+}
+
+footer{
+   border-top: 0.5rem solid var(--p);
+   border-top-left-radius: 2rem;
+   border-top-right-radius: 2rem;
+   display: flex;
+   height: 3rem;
+   justify-content: space-around;
+   align-items: center;
+   background-color: var(--t);
+   color: var(--p);
+}
+
+footer img{
+    width: 2.5rem;
+}
